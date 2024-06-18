@@ -1,0 +1,950 @@
+body{
+background-color:black;
+padding-top:230px;
+max-width:device_width;
+background-color:skyblue;
+}
+
+header{
+background-color:white;
+display:flex;
+flex-direction:row;
+justify-content:center;
+flex-wrap:no wrap;
+position:absolute;
+top:0px;
+left:0px;
+right:0px;
+max-width:device-width;
+height:auto;
+}
+
+h3{
+border:5px solid yellow;
+padding:150px 100px;
+}
+
+h1 b{
+border:5px solid ;
+padding:20px;
+font-size:5vw;
+}
+
+h1{
+text-align:center;
+margin:60px;
+}
+
+h2{
+color:black;
+text-align:center;
+font-size:3vw;
+}
+
+h3{
+color:white;
+font-size:5vw;
+}
+
+.f{
+margin-top:90px;
+}
+
+a{
+text-decoration:none;
+}
+
+.scroll{
+margin-top:80px;
+display:flex;
+flex-direction:row;
+justify-content:center;
+vertical-align:bottom;
+}
+
+.scroll p{
+color:white;
+font-size:3vw;
+margin:0px;
+padding-left:20px;
+padding-right:20px;
+}
+
+.scroll p{
+display:inline-block;
+}
+
+.first,.second{
+background-color:white;
+width:3%;
+height:3%;
+border-radius:100px;
+}
+
+.code{
+margin:3vw;
+max-width:100vw;
+height:80vh;
+display:flex;
+flex-direction:row;
+/*flex-wrap:wrap;
+justify-content:center;*/
+flex-gap:0;
+box-shadow: -20px 20px 40px white;
+border-radius:50px;
+}
+
+.leftBlock,.rightBlock{
+color:crimson;
+font-size:50px;
+width:100%;
+height:100%;
+height:auto;
+}
+
+.rightBlock{
+margin:0px;
+border-top-right-radius:50px;
+border-bottom-right-radius:50px;
+text-align:center;
+font-size:500%;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+#image{
+width:100%;
+height:100%;
+}
+
+.leftBlock{
+display:flex;
+flex-direction:column;
+justify-content:center;
+text-align:center;
+border-top-left-radius:50px;
+border-bottom-left-radius:50px;
+}
+
+.username,.partnername{
+cursor:pointer;
+font-size:3vw;
+}
+
+#userName,#partnerName{
+width:20vw;
+height:30px;
+margin-left:12vw;
+}
+
+.button{
+width:25%;
+height:50px;
+margin-left:17vw;
+color:crimson;
+cursor:pointer;
+}
+
+.end{
+  border-top: 2px solid white;
+  margin: 0px;
+  line-height: 2;
+  margin-top:100px;
+  font-size:50px;
+  background-color:rgb(30,30,30);
+  position:absolute;
+  left:0px;
+  right:0px;
+}
+
+.end b{
+  color: white;
+  padding-left: 20px;
+}
+
+.end p{
+  color: white;
+  padding-left: 25px;
+}
+
+p .cm{
+  text-decoration: underline;
+  padding:0px;
+}
+
+p .mail{
+padding:0px;
+}
+
+.f,.a,.e{
+text-align:right;
+}
+
+.f,.l,.a,.m,.e,.s{
+color:black;
+}
+
+main{
+color:black;
+}
+
+.fm,.lm,.am,.mm,.em,.sm{
+  display: none;
+  color:crimson;
+}
+
+.f:hover .fm{
+  display: block;
+}
+
+.f:hover{
+  height:600px;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.l:hover .lm{
+  display: block;
+  text-align:right;
+}
+
+.l:hover{
+  height:500px;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.a:hover .am{
+  display: block;
+}
+
+.a:hover{
+  height:400px;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.m:hover .mm{
+  display: block;
+  text-align:right;
+}
+
+.m:hover{
+  height:600px;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.e:hover .em{
+  display: block;
+}
+
+.e:hover{
+  height:500px;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.s:hover .sm{
+  display: block;
+  text-align:right;
+}
+
+.s:hover{
+  height:500px;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.friends{
+color:teal;
+}
+
+.love{
+color:#D90166;
+}
+
+.affection{
+color:darkblue;
+}
+
+.marriage{
+color:orange;
+}
+
+.enemies{
+color:crimson;
+}
+
+.siblings{
+color:green;
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px){
+.username,.partnername{
+font-size:3vw;
+}
+body{
+padding-top:180px;
+}
+
+.f{
+margin-top:50px;
+}
+
+.scroll{
+margin-top:50px;
+}
+
+.end{
+  font-size:3vw;
+}
+
+.f:hover{
+  height:45vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.l:hover{
+  height:35vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.a:hover{
+  height:25vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.m:hover{
+  height:45vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.e:hover{
+  height:32vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.s:hover{
+  height:32vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+.username,.partnername{
+font-size:3vw;
+}
+body{
+padding-top:150px;
+}
+
+.f{
+margin-top:30px;
+}
+
+.scroll{
+margin-top:30px;
+}
+
+.end{
+  font-size:3vw;
+}
+
+.f:hover{
+  height:35vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.l:hover{
+  height:20vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.a:hover{
+  height:13vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.m:hover{
+  height:25vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.e:hover{
+  height:20vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.s:hover{
+  height:20vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.username,.partnername{
+cursor:pointer;
+font-size:5vw;
+}
+}
+
+@media screen and (min-width:425px) and (max-width:768px){
+header{
+height:15vh;
+align-items: center;
+justify-content: space-around;
+}
+
+h1 b{
+border:5px solid ;
+padding:10px;
+font-size:3vw;
+text-align:center;
+align-items: center;
+}
+
+.username,.partnername{
+font-size:3vw;
+}
+
+body{
+padding-top:120px;
+}
+
+.f{
+margin-top:30px;
+}
+
+.scroll{
+margin-top:30px;
+}
+
+.end{
+  font-size:3vw;
+}
+
+.f:hover{
+  height:20vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.l:hover{
+  height:10vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.a:hover{
+  height:5vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.m:hover{
+  height:15vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.e:hover{
+  height:10vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.s:hover{
+  height:10vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.code br{
+display:none;
+}
+
+.code{
+display:flex;
+flex-direction:column;
+}
+
+.leftBlock{
+display:flex;
+flex-direction:row;
+align-items: baseline;
+flex-wrap: wrap;
+justify-content: space-evenly;
+line-height:12vh;
+}
+
+.rightBlock{
+height:100%;
+border-top-right-radius:0px;
+border-bottom-left-radius:50px;
+}
+
+.username,.partnername{
+cursor:pointer;
+font-size:5vw;
+}
+
+#userName,#partnerName{
+width:25vw;
+height:30px;
+margin:0px;
+}
+
+.button{
+width:25vw;
+height:50px;
+margin:0px;
+margin-top:4vw;
+margin-bottom:2vw;
+font-size:1rem;
+}
+}
+
+@media screen and (min-width:375px) and (max-width:425px){
+header{
+height:12vh;
+align-items: center;
+justify-content: space-around;
+}
+
+h1 b{
+border:5px solid ;
+padding:10px;
+font-size:3vw;
+text-align:center;
+align-items: center;
+}
+
+h2{
+font-size:3vh;
+}
+
+.scroll p{
+font-size:3vh;
+}
+
+.first,.second{
+width:3vh;
+}
+
+.f{
+margin-top:30px;
+}
+
+.f,.l,.a,.m,.e,.s{
+padding:5vh 5vw 5vh 10vw;
+}
+
+body{
+padding-top:80px;
+}
+
+.scroll{
+margin-top:30px;
+}
+
+.end{
+  font-size:5vw;
+}
+
+.f:hover{
+  height:20vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.l:hover{
+  height:15vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.a:hover{
+  height:12vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.m:hover{
+  height:18vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.e:hover{
+  height:12vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.s:hover{
+  height:12vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.code br{
+display:none;
+}
+
+.code{
+display:flex;
+flex-direction:column;
+}
+
+.leftBlock{
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+line-height: 12vh;
+flex-direction: column;
+}
+
+.rightBlock{
+height:100%;
+border-top-right-radius:0px;
+border-bottom-left-radius:50px;
+}
+
+.username,.partnername{
+cursor:pointer;
+font-size:5vw;
+}
+
+#userName,#partnerName{
+width:40vw;
+height:30px;
+margin:0px;
+}
+
+.button{
+width:40vw;
+height:3vh;
+margin:0px;
+margin-top:10vw;
+margin-bottom:5vw;
+font-size:0.7rem;
+}
+.username,.partnername{
+font-size:5vw;
+}
+}
+
+@media screen and (min-width:320px) and (max-width:375px){
+header{
+height:8vh;
+align-items: center;
+justify-content: space-around;
+}
+
+h1 b{
+border:2px solid ;
+padding:10px;
+font-size:3vw;
+text-align:center;
+align-items: center;
+margin-bottom:2vh;
+}
+h2{
+font-size:3vh;
+}
+
+.scroll p{
+font-size:3vh;
+}
+
+.first,.second{
+width:3vh;
+}
+
+.f{
+margin-top:30px;
+}
+
+.f,.l,.a,.m,.e,.s{
+padding:5vh 5vw 5vh 10vw;
+}
+
+body{
+padding-top:50px;
+}
+
+.scroll{
+margin-top:30px;
+}
+
+.end{
+  font-size:5vw;
+}
+
+.f:hover{
+  height:20vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.l:hover{
+  height:15vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.a:hover{
+  height:12vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.m:hover{
+  height:18vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.e:hover{
+  height:12vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.s:hover{
+  height:12vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.code br{
+display:none;
+}
+
+.code{
+display:flex;
+flex-direction:column;
+}
+
+.leftBlock{
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+line-height: 12vh;
+flex-direction: column;
+}
+
+.rightBlock{
+height:100%;
+border-top-right-radius:0px;
+border-bottom-left-radius:50px;
+}
+
+.username,.partnername{
+cursor:pointer;
+font-size:5vw;
+}
+
+#userName,#partnerName{
+width:40vw;
+height:30px;
+margin:0px;
+}
+
+.button{
+width:40vw;
+height:3vh;
+margin:0px;
+margin-top:10vw;
+margin-bottom:5vw;
+font-size:0.7rem;
+}
+.username,.partnername{
+font-size:5vw;
+}
+}
+
+@media screen and (max-width:320px){
+header{
+height:8vh;
+align-items: center;
+justify-content: space-around;
+}
+
+h1 b{
+border:1px solid ;
+padding:8px;
+font-size:3vw;
+text-align:center;
+align-items: center;
+margin-bottom:2vh;
+}
+h2{
+font-size:1.5vh;
+}
+
+.scroll p{
+font-size:1.5vh;
+}
+
+.first,.second{
+width:1.5vh;
+}
+
+.f{
+margin-top:30px;
+}
+
+.f,.l,.a,.m,.e,.s{
+padding:5vh 5vw 5vh 10vw;
+}
+
+body{
+padding-top:50px;
+}
+
+.scroll{
+margin-top:30px;
+}
+
+.end{
+  font-size:5vw;
+}
+
+.f:hover{
+  height:20vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.l:hover{
+  height:15vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.a:hover{
+  height:12vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.m:hover{
+  height:18vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.e:hover{
+  height:12vh;
+  padding-top:30px;
+  padding-right:40px;
+  cursor:pointer;
+}
+
+.s:hover{
+  height:12vh;
+  padding-top:30px;
+  padding-left:40px;
+  cursor:pointer;
+}
+
+.code br{
+display:none;
+}
+
+.code{
+display:flex;
+flex-direction:column;
+}
+
+.leftBlock{
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+line-height: 12vh;
+flex-direction: column;
+}
+
+.rightBlock{
+height:100%;
+border-top-right-radius:0px;
+border-bottom-left-radius:50px;
+}
+
+.username,.partnername{
+cursor:pointer;
+font-size:5vw;
+}
+
+#userName,#partnerName{
+width:40vw;
+height:30px;
+margin:0px;
+}
+
+.button{
+width:40vw;
+height:4vh;
+margin:0px;
+margin-top:10vw;
+margin-bottom:5vw;
+font-size:0.7rem;
+}
+.username,.partnername{
+font-size:5vw;
+}
+}
