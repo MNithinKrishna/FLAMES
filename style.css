@@ -158,6 +158,10 @@ cursor:pointer;
   right:0px;
 }
 
+.end a{
+  color: white;
+}
+
 .end b{
   color: white;
   padding-left: 20px;
