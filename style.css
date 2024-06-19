@@ -164,12 +164,11 @@ cursor:pointer;
 
 .end b{
   color: white;
-  padding-left: 2rem;
 }
 
 .end p{
   color: white;
-  padding-left: 25px;
+  padding-left: 2rem;
 }
 
 p .cm{
