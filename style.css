@@ -168,16 +168,16 @@ cursor:pointer;
 
 .end p{
   color: white;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 p .cm{
   text-decoration: underline;
-  padding:0px;
+  
 }
 
 p .mail{
-padding:0px;
+  
 }
 
 .f,.a,.e{
